@@ -5,10 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:                                                                                                                                 
-Project Hosted Link :- billing-reports.netlify.app
 
 ### `yarn start`
-
+Project Hosted Link :- billing-reports.netlify.app
 Runs the app in the development mode.\
 Open [billing-reports.netlify.app](billing-reports.netlify.app) to view it in the browser.
 
