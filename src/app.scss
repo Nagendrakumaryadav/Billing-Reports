@@ -1,0 +1,70 @@
+.billing-app {
+  .billing-title {
+    height: 10rem;
+    line-height: 10rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #364d79;
+  }
+
+  .billing-content {
+    color: black;
+    .billing-tab-icons {
+      font-size: 24px;
+    }
+  }
+}
+
+.billing-details-container {
+  padding: 5rem;
+  .billing-details-header {
+    display: flex;
+    justify-content: center;
+    button {
+      margin-right: 1rem;
+      height: 3rem;
+    }
+  }
+  .billing-details-content {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    flex-wrap: wrap;
+    & > div {
+      width: 20rem;
+      background-color: #3195f0;
+      margin: 1rem 1rem 1rem 0;
+      -webkit-box-shadow: 4px 4px 5px -2px rgba(153, 153, 153, 1);
+      -moz-box-shadow: 4px 4px 5px -2px rgba(153, 153, 153, 1);
+      box-shadow: 4px 4px 5px -2px rgba(153, 153, 153, 1);
+      .bill-header {
+        .ant-card-meta-title {
+          color: white !important;
+          font-weight: bolder;
+          font-size: 24px !important;
+        }
+      }
+      .ant-card-meta-description {
+        color: white !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+.billing-details-chart {
+  padding: 0 10rem 0 10rem;
+}
+
+.billing-details-report-container {
+  display: flex;
+  justify-content: center;
+  .billing-details-report-content {
+    padding: 10rem;
+    button {
+      margin: 1rem 1rem 0 0;
+    }
+  }
+}
