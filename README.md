@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App                                                                                                                                 
+Tech Stack : Html,Css,React Js.                                                                                                                                         
+Project Host:billing-reports.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
